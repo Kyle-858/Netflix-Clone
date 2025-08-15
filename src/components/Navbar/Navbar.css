@@ -26,8 +26,12 @@
     gap: 20px;
 }
 
-.navbar__left li {
+.nav__link--point {
     cursor: pointer;
+} 
+
+.nav__link--nonpoint {
+    cursor: no-drop;
 }
 
 .navbar__right {
@@ -38,7 +42,7 @@
 
 .navbar__right .icons {
     width: 20px;
-    cursor: pointer;
+    cursor: no-drop;
 }
 
 .navbar__right .profile {

@@ -26,17 +26,17 @@ const Navbar = () => {
             <div className="navbar__left">
                 <img src={logo} alt="" />
                 <ul>
-                    <li>Home</li>
-                    <li>TV Shows</li>
-                    <li>Movies</li>
-                    <li>New & Popular</li>
-                    <li>My List</li>
-                    <li>Browse by Languages</li>
+                    <li className='nav__link--point'>Home</li>
+                    <li className='nav__link--nonpoint'>TV Shows</li>
+                    <li className='nav__link--nonpoint'>Movies</li>
+                    <li className='nav__link--nonpoint'>New & Popular</li>
+                    <li className='nav__link--nonpoint'>My List</li>
+                    <li className='nav__link--nonpoint'>Browse by Languages</li>
                 </ul>
             </div>
             <div className="navbar__right">
                 <img className="icons" src={search_icon} alt="" />
-                <p>Children</p>
+                <p className='nav__link--nonpoint'>Children</p>
                 <img className="icons" src={bell_icon} alt="" />
                 <div className="navbar__profile">
                     <img className="profile" src={profile_img} alt="" />
